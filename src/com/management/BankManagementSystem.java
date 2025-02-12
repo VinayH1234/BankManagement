@@ -52,6 +52,7 @@ class Bank {
         Account newAccount = new Account(name, initialDeposit);
         accounts.put(newAccount.getAccountNumber(), newAccount);
         System.out.println("Account created successfully. Account Number: " + newAccount.getAccountNumber());
+        System.out.println("Account Created Successsfully");
     }
 
     public void viewAccountDetails(int accountNumber) {
